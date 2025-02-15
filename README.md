@@ -2,6 +2,10 @@
 
 Quantum entanglement, a phenomenon described by Einstein as <span style="color:red;">"spooky action at a distance,"</span> remains one of the most intriguing and perplexing aspects of quantum mechanics.  It describes a situation where two or more particles become linked in such a way that they share the same fate, no matter how far apart they are.  Measuring the properties of one particle 
 
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
 ```geojson
 {
   "type": "FeatureCollection",
