@@ -1,4 +1,4 @@
-## The Intricate Dance of Quantum Entanglement: A Deep Dive
+8## The Intricate Dance of Quantum Entanglement: A Deep Dive
 
 Quantum entanglement, a phenomenon described by Einstein as <span style="color:red;">"spooky action at a distance,"</span> remains one of the most intriguing and perplexing aspects of quantum mechanics.  It describes a situation where two or more particles become linked in such a way that they share the same fate, no matter how far apart they are.  Measuring the properties of one particle 
 | Command | Description |
@@ -17,7 +17,15 @@ The concept of entanglement arose from the work of Albert Einstein, Boris Podols
 However, in 1964, John Stewart Bell formulated a theorem and inequality that provided a way to experimentally test the validity of local hidden variable theories.  Bell's theorem demonstrated that the predictions of quantum mechanics for entangled particles are statistically incompatible with *any* local hidden variable theory.
 
 Numerous experiments, beginning with those by Alain Aspect in the early 1980s, have consistently violated Bell's inequality, strongly supporting the predictions of quantum mechanics and confirming the existence of entanglement.  These experiments have ruled out local hidden variables as an explanation for the observed correlations.
+Here is a simple flow chart:
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 ### Experimental Validation: From Photons to Qubits
 
 Entanglement has been experimentally demonstrated with various particles, including photons, electrons, ions, and even macroscopic objects.  A common experimental setup involves generating pairs of entangled photons using spontaneous parametric down-conversion (SPDC).  The photons are then separated and sent to different detectors.  By measuring the <span style="color:green;">polarization</span> or other properties of the photons, researchers can demonstrate the correlations predicted by quantum mechanics.
