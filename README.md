@@ -1,6 +1,11 @@
 ## The Intricate Dance of Quantum Entanglement: A Deep Dive
 
-Quantum entanglement, a phenomenon described by Einstein as <span style="color:red;">"spooky action at a distance,"</span> remains one of the most intriguing and perplexing aspects of quantum mechanics.  It describes a situation where two or more particles become linked in such a way that they share the same fate, no matter how far apart they are.  Measuring the properties of one particle <span style="background-color:yellow;">instantaneously</span> influences the properties of the other, a correlation that seemingly transcends the limitations of classical physics and the speed of light.
+Quantum entanglement, a phenomenon described by Einstein as <span style="color:red;">"spooky action at a distance,"</span> remains one of the most intriguing and perplexing aspects of quantum mechanics.  It describes a situation where two or more particles become linked in such a way that they share the same fate, no matter how far apart they are.  Measuring the properties of one particle 
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+<span style="background-color:yellow;">instantaneously</span> influences the properties of the other, a correlation that seemingly transcends the limitations of classical physics and the speed of light.
 
 This article delves into the complexities of entanglement, exploring its theoretical underpinnings, experimental validations, potential This is some normal text, and this word <span style="font-size: 20px;">here</span> is larger.
  applications, and the philosophical debates it has sparked.
