@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        header {
+            width: 100%;
+            background-color: #f0f0f0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            flex-grow: 1;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                max-width: 95%;
+                margin: 10px;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Site Title</h1>
+    </header>
+
+    <main id="markdown-content">
+        </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        // Get the raw Markdown content (replace with your actual method)
+        fetch('README.md') // Replace 'your-page.md' with the actual file name
+            .then(response => response.text())
+            .then(markdown => {
+                const html = marked.parse(markdown);
+                document.getElementById('markdown-content').innerHTML = html;
+            })
+            .catch(error => {
+                console.error("Error fetching Markdown:", error);
+                document.getElementById('markdown-content').innerHTML = "<p>Error loading content.</p>"; // Display an error message
+            });
+    </script>
+
+</body>
+</html>
