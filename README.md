@@ -16,6 +16,10 @@ The concept of entanglement arose from the work of Albert Einstein, Boris Podols
 
 However, in 1964, John Stewart Bell formulated a theorem and inequality that provided a way to experimentally test the validity of local hidden variable theories.  Bell's theorem demonstrated that the predictions of quantum mechanics for entangled particles are statistically incompatible with *any* local hidden variable theory.
 
+```mermaid
+  info
+```
+
 Numerous experiments, beginning with those by Alain Aspect in the early 1980s, have consistently violated Bell's inequality, strongly supporting the predictions of quantum mechanics and confirming the existence of entanglement.  These experiments have ruled out local hidden variables as an explanation for the observed correlations.
 Here is a simple flow chart:
 
