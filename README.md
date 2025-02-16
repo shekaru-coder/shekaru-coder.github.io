@@ -27,4 +27,4 @@ and my [latest blog post](https://sindresorhus.com/blog) ![](hot.gif)
 
 ![](flames.gif)
 
-[bio](bio.md)
+[bio](bio/bio.md)
