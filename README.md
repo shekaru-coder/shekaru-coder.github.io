@@ -14,7 +14,7 @@
 
 <br>
 
-check out my latest app: [Supercharge](https://sindresorhus.com/supercharge) ![](hot.gif)
+check out my latest app: [Supercharge](https://github.com/shekaru-coder/EDA/blob/main/README.md) ![](hot.gif)
 
 and my [latest blog post](https://sindresorhus.com/blog) ![](hot.gif)
 
